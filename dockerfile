@@ -1,7 +1,7 @@
 #create jekyll from ruby alpine
 
 # min ruby 2.5 or later
-FROM ruby:2.7-alpine3.15
+FROM ruby:3.5-alpine3.15
 
 # add jekyll dep to alpine
 RUN apk update
